@@ -1,0 +1,147 @@
+
+body {
+    font-family: "Nunito", sans-serif;
+}
+h1
+h2
+h3
+h4
+h5
+h6 {
+    font-family: "Monyserrat", sans-serif;
+
+}
+    .color-main {
+        color: var(--main-color) !important;
+    }
+.color-min{
+    background-color:brown
+}
+.section-header{
+    width: 90vh;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+
+
+
+/* Home */
+#Home{
+    height: 100vh;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0.411)), url(../session14/imgs/imgs/header-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Download-btn{
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+.Download-btn:hover{
+background-color: white;
+color: black;
+transition: all 0s;
+}
+
+
+.animation{
+    height: 100px;
+    width: 50px;
+    border: 2px solid white;
+    bottom: 50px;
+    left: auto;
+    left: 48px;
+align-self: last baseline;
+}
+
+.animate{
+background-color: white;
+height: 10px;
+width: 5px;
+}
+
+
+   /* About */
+   .icon{
+    height: 50px;
+    width: 50px;
+   }
+   .icon:hover{
+    border-color:brown !important;
+    cursor: pointer;
+    color: brown !important;
+   }
+@media screen and  (min-width:1024px) {
+    .section-header{
+        width: 50%;
+    }   
+}
+/* Works */
+#works .layer{
+    background-color: rgba(0, 0, 0, 0.384);
+    opacity: 0;
+}
+#works .layer p{
+transform: translateY(100px);
+}
+
+#works .layer:hover{
+opacity: 1;
+transition: all .7s;
+}
+
+#Works .nav-link.active {
+    
+    background-color: deeppink;
+    color: white !important;
+}
+works .layer p{
+transform: translateY(0);
+transition: all .7s;
+}
+/* CLients */
+#Clients .carousel-indicators{
+    bottom: -30px;
+}
+
+#works .layer:hover{
+    opacity: 1;
+}
+#works .img-container{
+    overflow: hidden;
+}
+#works .img-container:hover img{
+    scale: 1.3;
+}
+/* CLients */
+#Clients .carousel-indicators{
+    bottom: -30px;
+}
+/* CLients */
+#Clients .carousel-indicators button{
+    background-color: fuchsia;
+width: 10px;
+height: 5px;
+border: 1px;
+border-radius: 15px;
+}
+#Clients .carousel-indicators button{
+    width: 20px;
+}
+
+/* Contact Us */
+.send-btn{
+    background-color: deeppink;
+    border-color:deeppink;
+    padding: 15px 30px;
+    color: white;
+}
+.send-btn:hover{
+    color:deeppink;
+    background-color: transparent;
+    transition: all 3s;
+}
